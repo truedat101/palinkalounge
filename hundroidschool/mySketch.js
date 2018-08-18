@@ -19,7 +19,7 @@ var headlines = [
   "Egészségedre = Cheers ", 
 ];
 
-var assetpath = "";
+var assetpath = "data/";
 var audiofiles = [  
   assetpath + "koszi.mp3", 
   assetpath + "szia.mp3", 
@@ -32,20 +32,6 @@ var audiofiles = [
   assetpath + "mizu.mp3", 
   assetpath + "egeszegedre.mp3"
 ];
-/*
-final static String[] audiofiles = {
-  "koszi.mp3", 
-  "szia.mp3", 
-  "komolyan.mp3", 
-  "hogyvagy.mp3", 
-  "viszontlatasra.mp3", 
-  "ezoriasi.mp3", 
-  "puszi.mp3", 
-  "erreigyunk.mp3", 
-  "mizu.mp3", 
-  "egeszegedre.mp3"
-};
-*/
 
 var index = 0;
 
@@ -53,7 +39,7 @@ var index = 0;
 var audiotracks = [];
 
 function preload() {
-  flagimg = loadImage("hungarianflag.jpg");
+  flagimg = loadImage("img/hungarianflag.jpg");
   // Load up the audio tracks
   for ( var idx = 0; idx != audiofiles.length; idx++) {
        soundFormats('mp3');
