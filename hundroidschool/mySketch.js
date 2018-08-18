@@ -1,3 +1,4 @@
+var version = "v1.0.1";
 var isOverRectangle = false;
 var x = 1;
 var y = 660;
@@ -79,7 +80,7 @@ function draw() {
   text(headlines[index],width*0.5, height*0.12771392); 
   line(0, height*0.19157088, width, height*0.19157088);
   textSize(20);
-  text("Hundroid School: learn important hungarian phrases. click play on the left to play sound and learn the phrase.",width*0.48, height*0.25542784);
+  text("Hundroid School " + version +": learn important hungarian phrases. click play on the left to play sound and learn the phrase.",width*0.48, height*0.25542784);
   text(" Click next on the right to continue to the next phrase", width*0.48, height*0.29);
 	text("By liamkords + truedat101 2018, Voices by Imi (Palinka Lounge)",width*0.48,height*0.38)
 	image(flagimg, width*0.28,height*0.48, flagimg.width/2, flagimg.height/2);
