@@ -67,7 +67,7 @@ function draw() {
   fill(255);
 	//print("x:" + x + " y:" + y);
   rect(x, y, w, h);  // 
- rect(x2, y, w, h); // Play
+  rect(x2, y, w, h); // Play
 	
 	// Play box
 	//rect(width*0.009, height*0.812, width * 0.1, height * 0.12);
