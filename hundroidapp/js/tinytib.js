@@ -245,6 +245,13 @@ $(document).ready(function() {
   if (CONFIG.hidestatus) {
     $('#status').hide();
   }
+
+  if (CONFIG.enableiostouch) {
+    // Enable iframe touch events
+    // SO: https://stackoverflow.com/a/50483933/796514
+    window.addEventListener('touchstart', {});
+  }
+
   if (CONFIG.autostart) {
     // XXX Technically this can bomb if number of tests don't match our URLs
     var i = 1;
