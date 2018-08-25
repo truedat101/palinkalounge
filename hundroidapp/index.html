@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<!-- Copyright (c) 2010-2018 Razortooth Communications, LLC. All rights reserved. -->
+		<!-- See License.txt -->
+		<META HTTP-EQUIV="Expires" CONTENT="-1">
+		<!-- <META HTTP-EQUIV="Expires" CONTENT="Sat, 1 Jan 2005 00:00:00 GMT"> -->
+		<META HTTP-EQUIV="Last-Modified" CONTENT="Sat, 1 Jan 1971 00:00:00 GMT">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+		<META HTTP-EQUIV="Cache-Control" CONTENT="must-revalidate">
+		<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+        <title>Palinka Lounge Hundroid App</title>
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+		<link rel="apple-touch-icon" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon-180x180.png" />
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="js/idb.filesystem.min.js" type="text/javascript"></script>
+		<script src="js/config.js" type="text/javascript"></script>
+		<script src="js/tinytib.js" type="text/javascript"></script>
+        <!-- <script type="text/javascript" src="https://getfirebug.com/firebug-lite-beta.js"></script> -->
+        <script language="JavaScript" type="text/javascript">
+        // Try to avoid frame busting
+        if (top.frames.length!=0)
+        top.location=self.document.location;
+        </script> 
+	</head>
+	<body>
+		<div id="status">
+			<p><span id="timestamp"></span><span id="errors"></span><span id="config"></span></p>
+		</div>
+		<br/>
+		<img src="https://www.yahoo.com/favicon.ico" width="10" height="10" onerror="setNoConnection()" />
+		<div id="controls"><input type="button" name="halt" id="halt" value="Halt" /><input type="button" name="logdump" id="logdump" value="Log Dump" /><input type="button" name="resetlog" id="resetlog" value="Reset Log" /><input type="button" name="clear" id="clear" value="Clear" /><input type="button" name="wakeup" id="wakeup" value="Wakeup" /></div>
+		<br />
+		<div id="logoutput"></div>
+		<IFRAME id="displaywindow" target="_blank" WIDTH="100%" HEIGHT="100%" scrolling="no" style="  overflow: hidden;">
+			If you can see this, your browser doesn't 
+			understand IFRAME.  Please contact your supervisor.
+		</IFRAME>
+	<body>
+</html>
