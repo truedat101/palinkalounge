@@ -1,6 +1,6 @@
 // Source: Real-Time Fluid Dynamics for Games by Jos Stam - http://www.intpowertechcorp.com/GDC03.pdf
 
-var N = 128;
+var N = 64;
 var thesize;
 var u = [];
 var v = [];

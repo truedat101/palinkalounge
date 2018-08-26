@@ -25,7 +25,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(1200, 650);
+    createCanvas(windowWidth, windowHeight);
     background(40);
     move1 = move3 = 0;
     move2 = move4 = 1400;

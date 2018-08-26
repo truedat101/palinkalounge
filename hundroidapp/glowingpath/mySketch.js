@@ -37,7 +37,7 @@ function circle(f) {
 }
 
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(windowWidth,windowHeight);
   
   maxD = sqrt(sq(renderWidth) + sq(renderHeight));
   

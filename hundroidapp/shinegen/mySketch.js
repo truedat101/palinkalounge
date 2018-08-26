@@ -9,7 +9,7 @@ var z = 300;
 var pastX = 280;
 var pastY = 280;
 function setup() {
-  createCanvas(displayWidth,displayHeight);
+  createCanvas(windowWidth,windowHeight);
   background(0,0,0);
 }
 

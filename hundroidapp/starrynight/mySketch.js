@@ -35,7 +35,7 @@ var wind;
 var locationData;
 
 function preload(){
-    locationData =  getCurrentPosition();
+    // locationData =  getCurrentPosition();
 }
 
 function setup() {
@@ -48,11 +48,14 @@ function setup() {
   background('#00031A');
   
   // position
+	/*
   var lat = locationData.latitude;
   var lon = locationData.longitude;
   var pos = "" + lat + "," + lon;
-  var url = 'https://api.apixu.com/v1/current.json?key=71618018804d46059ad211538172504&q=' + pos;
-  loadJSON(url, gotWeather);
+	*/
+  // var url = 'https://api.apixu.com/v1/current.json?key=71618018804d46059ad211538172504&q=' + pos;
+  // loadJSON(url, gotWeather);
+	genWind();
 }
 
 function draw() {
@@ -74,7 +77,12 @@ function addBrushes() {
   }
 }
 
+function genWind() {
+	wind = random(0, 50);
+}
+/*
 function gotWeather(weather) {
   wind = Number(weather.current.wind_kph);
-  print("wind=" + wind);
+	print("wind" + wind);
 }
+*/
