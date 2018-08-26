@@ -3,7 +3,7 @@ let theta0 = 0;
 
 
 function setup() {
-    createCanvas(800, 800);
+    createCanvas(windowWidth,windowHeight);
     colorMode(HSB,360,100,100,100);
    
     background(255);	
