@@ -1,5 +1,5 @@
 var CONFIG = {
-    "timeout" : "18000"
+    "timeout" : "45000"
     ,"warmup" : "1000"
     ,"logfile" : "tinytibrunnerlog.txt"
     ,"mediapath": "/tmp"
